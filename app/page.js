@@ -45,7 +45,10 @@ export default function Home() {
                         <div className="text-gray-700">Innovación Digital</div>
                         <div className="mt-10 text-justify">
                             En Innova Hub Group, nos especializamos en la creación de soluciones digitales para empresas y emprendedores.
-                            Y hoy queremos invitarte a conocer nuestro trabajo en el próximo evento en Paseo de la Reforma 1230, Ciudad de México.
+                            Y hoy queremos invitarte a conocer nuestro trabajo en el próximo evento en <label className="underline">Paseo de la Reforma 1230, Ciudad de México</label>.
+                        </div>
+                        <div className="mt-10 rounded-md">
+                            <iframe className="rounded-md" width="560" height="315" src="https://www.youtube.com/embed/HaqrLm4RMbY?si=liJ1LdnuTLrfsk2P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -54,7 +57,7 @@ export default function Home() {
                 <div className="h-screen flex items-center justify-center">
                     <div className="bg-white w-3/4 rounded-md p-6 drop-shadow-md bg-opacity-30 backdrop-blur-md shadow-lg">
                         <div
-                            className="text-2xl font-light text-center mb-10 text-gray-600"
+                            className="text-1xl font-light text-center mb-8 text-gray-600"
                         >Registrate Gratis y asiste al mejor evento de transformación digital.</div>
                         <div id='formhb'></div>
                     </div>
